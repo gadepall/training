@@ -1,0 +1,64 @@
+%
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+
+
+\item నిమ్న బిందువులు యెటువంటి చతుర్భుజలకు షిప్ర్షాలు? ఆధారాలతో సమాధానము ఇవ్వండి।
+\begin{align}
+\vec{P} = \myvec{-1\\-2}, \vec{Q} =\myvec{1\\0},
+\vec{R} =\myvec{-1\\2}, \vec{S} =\myvec{-3\\0}
+\end{align}
+\solution
+ఆకృతి.	\ref{fig:3.5.4_quadrilateral1} లో
+\begin{align}
+\label{eq:constr_vectors_quad1_PSQR}
+ \vec{P} - \vec{S} &= 
+ \vec{Q} - \vec{R} = \myvec{2\\-2}
+\\
+\vec {R} - \vec {S} &=
+ \vec {Q} - \vec {P} = \myvec{2\\2}
+\label{eq:constr_vectors_quad1_RSQP}
+\end{align}
+%
+$PQRS$ లో  సంముఖ భుజాలు సమాంతరము। అందువలన అది ఒక సమాంతర చతుర్భుజము। ఇది కాక 
+\begin{align}
+\norm{ \vec{P} - \vec{S}} &= 
+\norm{ \vec{Q} - \vec{R}} 
+\\
+=\norm{\vec {R} - \vec {S}} &=
+\norm{ \vec {Q} - \vec {P}} = 2\sqrt{2}
+\end{align}
+%
+ ప్రదత్తా చతుర్భుజ సమస్త భుజాలు సమానము అవునందుకు, ఇది సమాంతర చతుర్భుజముగా రుదువు
+అయ్యినది।   $PS$  ఇంకా 
+$RS$  తో కృత కోణం
+\begin{align}
+\cos \theta = \frac{\brak{\vec{S}-\vec{P}}^{\top}\brak{\vec{S}-\vec{R}}}{\norm{\vec{S}-\vec{P}}^{\top}\norm{\vec{S}-\vec{R}}}
+\end{align}
+%
+$\because $
+\begin{align}
+\brak{\vec{S}-\vec{P}}^{\top}\brak{\vec{S}-\vec{R}} = \myvec{2 & -2}\myvec{2\\2} = 0
+\end{align}
+ఉపరోక్ట్ సమీకరణంలో ${\top}$  అదిశ గుణఫలాన్నికి చింహము। 
+\eqref{eq:constr_vectors_quad1_PSQR} ను  \eqref{eq:constr_vectors_quad1_RSQP} లో  
+ప్రతిష్ఠాపన చేసి 
+\begin{align}
+\cos \theta = 0 \implies PS \perp RS
+\end{align}
+%
+అతః సమాచతుర్భుజము  మూలంగా ఒక వర్గము। 
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=\columnwidth]{figs/quad1.pdf}
+	\caption{ప్రదత్త బిందువులు ఒక వర్గాన్నీ నిర్మిస్తాయి}
+	\label{fig:3.5.4_quadrilateral1}
+\end{figure}
+
+
+\end{enumerate}
+
+%\end{document}
+
+

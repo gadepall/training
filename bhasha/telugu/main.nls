@@ -1,0 +1,14 @@
+
+\begin{thenomenclature} 
+\nomgroup{A}
+  \item [{Angle}]\begingroup కోణం\nomeqref {0.0.0}\nompageref{1}
+  \item [{Matrix}]\begingroup ఆవ్యూహం\nomeqref {0.0.0}\nompageref{1}
+  \item [{Parallelogram}]\begingroup సమాంతరచతుర్భుజం\nomeqref {0.0.0}\nompageref{1}
+  \item [{Point}]\begingroup బిందు\nomeqref {0.0.0}\nompageref{1}
+  \item [{Quadrilateral}]\begingroup చతుర్భుజం\nomeqref {0.0.0}\nompageref{1}
+  \item [{Rectangle}]\begingroup సామచతుర్భుజం\nomeqref {0.0.0}\nompageref{1}
+  \item [{Scalar Product}]\begingroup అదిశ గునఫలం\nomeqref {0.0.0}\nompageref{1}
+  \item [{Square}]\begingroup వర్గం\nomeqref {0.0.0}\nompageref{1}
+  \item [{Vector}]\begingroup సాదిశం\nomeqref {0.0.0}\nompageref{1}
+
+\end{thenomenclature}

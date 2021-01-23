@@ -1,0 +1,307 @@
+% దస్తూరి : Latex లో తెలుగు 
+% రచయిత : పరాశర శ్రీధర్ దుగ్గిరాల 
+% తేదీ: ౨౮ సెప్టెంబరు ౨౦౧౯
+% ప్రశ్నలకు parasara.duggirala@gmail.com ని సంప్రదించండి.
+%
+% Document: Telugu in Latex
+% Author: Parasara Sridhar Duggirala
+% Date: 28 September 2019
+% For any questions, contact parasara.duggirala@gmail.com
+%
+
+\documentclass[a4paper,12pt]{article}
+% \include{prelude.tex}
+
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amssymb,amsmath}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+
+
+\newfontfamily{\akshar}{akshar}[
+Path = ./Fonts/,
+Extension = .ttf, 
+]
+
+\newfontfamily{\dhurjati}{dhurjati}[
+Path = ./Fonts/,
+Extension = .ttf, 
+]
+
+\newfontfamily{\gautami}{gautami}[
+Path = ./Fonts/,
+Extension = .ttf, 
+]
+
+\newfontfamily{\gidugu}{Gidugu}[
+Path = ./Fonts/,
+Extension = .ttf, 
+]
+
+\newfontfamily{\gurajada}{Gurajada}[
+Path = ./Fonts/,
+Extension = .ttf, 
+]
+
+\newfontfamily{\lakkireddy}{LakkiReddy}[
+Path = ./Fonts/,
+Extension = .ttf,
+]
+
+\newfontfamily{\lohit}{Lohittelugu}[
+Path = ./Fonts/,
+Extension = .ttf,
+]
+
+\newfontfamily{\mallanna}{Mallanna}[
+Path = ./Fonts/,
+Extension = .ttf,
+UprightFont = *-Regular,
+]
+
+\newfontfamily{\mandali}{Mandali}[
+Path = ./Fonts/,
+Extension = .ttf, 
+UprightFont = *-Regular,
+]
+
+\newfontfamily{\nats}{NATS}[
+Path = ./Fonts/,
+Extension = .ttf,
+]
+
+\newfontfamily{\ntr}{NTR}[
+Path = ./Fonts/,
+Extension = .ttf,
+]
+
+\newfontfamily{\peddana}{Peddana}[
+Path = ./Fonts/,
+Extension = .ttf, 
+UprightFont = *-Regular, 
+]
+
+\newfontfamily{\ponnala}{Ponnala}[
+Path = ./Fonts/,
+Extension = .ttf,
+]
+
+\newfontfamily{\pothana}{Pothana2000}[
+Path = ./Fonts/,
+Extension = .ttf, 
+]
+
+\newfontfamily{\psr}{Pottisreeramulu}[
+Path = ./Fonts/,
+Extension = .otf,
+]
+
+\newfontfamily{\ramabhadra}{ramabhadra}[
+Path = ./Fonts/,
+Extension = .ttf,
+]
+
+\newfontfamily{\ramaraja}{Ramaraja}[
+Path = ./Fonts/,
+Extension = .ttf,
+UprightFont = *-Regular,
+]
+
+\newfontfamily{\raviprakash}{RaviPrakash}[
+Path = ./Fonts/,
+Extension = .ttf,
+]
+
+\newfontfamily{\skdr}{Sreekrushnadevaraya}[
+Path = ./Fonts/,
+Extension = .ttf,
+]
+
+\newfontfamily{\suranna}{suranna}[
+Path = ./Fonts/,
+Extension = .ttf,
+]
+
+\newfontfamily{\suravaram}{Suravaram}[
+Path = ./Fonts/,
+Extension = .ttf,
+]
+
+\newfontfamily{\syr}{Syamalaramana}[
+Path = ./Fonts/,
+Extension = .otf,
+]
+
+\newfontfamily{\trk}{TenaliRamakrishna}[
+Path = ./Fonts/,
+Extension = .ttf,
+UprightFont = *-Regular,
+]
+
+\newfontfamily{\timmana}{Timmana}[
+Path = ./Fonts/,
+Extension = .ttf,
+UprightFont = *-Regular,
+]
+
+\newfontfamily{\vemana}{vemana2000}[
+Path = ./Fonts/,
+Extension = .ttf,
+]
+
+\newfontfamily{\notosans}{NotoSansTelugu}[
+Path = ./Fonts/Noto/,
+Extension = .ttf,
+UprightFont = *-Regular,
+BoldFont = *-Bold,
+]
+
+\newfontfamily{\notosansUI}{NotoSansTeluguUI}[
+Path = ./Fonts/Noto/,
+Extension = .ttf,
+UprightFont = *-Regular,
+BoldFont = *-Bold,
+]
+
+\newfontfamily{\notoserif}{NotoSerifTelugu}[
+Path = ./Fonts/Noto/,
+Extension = .ttf,
+UprightFont = *-Regular,
+BoldFont = *-Bold,
+]
+
+
+%%%%
+%%%%  Decide the main font by uncommenting one of the following 
+%%%%
+
+
+
+% \setmainfont{akshar.ttf}[
+% Path = ./Fonts/,
+% ]
+
+% \setmainfont{dhurjati.ttf}[
+% Path = ./Fonts/,
+% ]
+
+% \setmainfont{gautami.ttf}[
+% Path = ./Fonts/,
+% ]
+
+% \setmainfont{Gidugu.ttf}[
+% Path = ./Fonts/,
+% ]
+
+% \setmainfont{Gurajada.ttf}[
+% Path = ./Fonts/,
+% ]
+
+% \setmainfont{LakkiReddy.ttf}[
+% Path = ./Fonts/,
+% ]
+
+\setmainfont{Lohittelugu.ttf}[
+Path = ./Fonts/,
+]
+
+% \setmainfont{Mallanna-Regular.ttf}[
+% Path = ./Fonts/,
+% ]
+
+% \setmainfont{Mandali-Regular.ttf}[
+% Path = ./Fonts/,
+% ]
+
+% \setmainfont{NATS.ttf}[
+% Path = ./Fonts/,
+% ]
+
+% \setmainfont{NTR.ttf}[
+% Path = ./Fonts/,
+% ]
+
+% \setmainfont{Peddana-Regular.ttf}[
+% Path = ./Fonts/,
+% ]
+
+% \setmainfont{Ponnala.ttf}[
+% Path = ./Fonts/,
+% ]
+
+% \setmainfont{Pothana2000.ttf}[
+% Path = ./Fonts/,
+% ]
+
+% \setmainfont{Pottisreeramulu.otf}[
+% Path = ./Fonts/,
+% ]
+
+% \setmainfont{ramabhadra.ttf}[
+% Path = ./Fonts/,
+% ]
+
+% \setmainfont{Ramaraja-Regular.ttf}[
+% Path = ./Fonts/,
+% ]
+
+% \setmainfont{PraviPrakash.ttf}[
+% Path = ./Fonts/,
+% ]
+
+% \setmainfont{Sreekrushnadevaraya.ttf}[
+% Path = ./Fonts/,
+% ]
+
+% \setmainfont{suranna.ttf}[
+% Path = ./Fonts/,
+% ]
+
+% \setmainfont{Suravaram.ttf}[
+% Path = ./Fonts/,
+% ]
+
+% \setmainfont{Syamalaramana.otf}[
+% Path = ./Fonts/,
+% ]
+
+% \setmainfont{TenaliRamakrishna-Regular.ttf}[
+% Path = ./Fonts/,
+% ]
+
+% \setmainfont{Timmana-Regular.ttf}[
+% Path = ./Fonts/,
+% ]
+
+% \setmainfont{vemana2000.ttf}[
+% Path = ./Fonts/,
+% ]
+
+% \setmainfont{NotoSansTelugu-Regular.ttf}[
+% Path = ./Fonts/Noto/,
+% ]
+
+% \setmainfont{NotoSansTeluguUI-Regular.ttf}[
+% Path = ./Fonts/Noto/,
+% ]
+
+% \setmainfont{NotoSerifTelugu-Regular.ttf}[
+% Path = ./Fonts/Noto/,
+% ]
+
+
+\title{\LaTeX \ponnala{లో తెలుగు వ్రాయడం ఎలా?}}
+\author{\peddana{పరాశర శ్రీధర్ దుగ్గిరాల} }
+\date{}
+
+
+\begin{document}
+
+\maketitle
+
+
+\input{intro.tex}
+
+
+\end{document}

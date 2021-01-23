@@ -1,0 +1,841 @@
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Termux) (preloaded format=xelatex 2020.12.28)  23 JAN 2021 10:14
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-03-06>
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/base/articl
+e.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/base/size12
+.clo
+File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count163
+\c@section=\count164
+\c@subsection=\count165
+\c@subsubsection=\count166
+\c@paragraph=\count167
+\c@subparagraph=\count168
+\c@figure=\count169
+\c@table=\count170
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/geometry/ge
+ometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/graphics/ke
+yval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/iftex/ifv
+tex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/iftex/ift
+ex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count171
+\Gm@cntv=\count172
+\c@Gm@tempcnt=\count173
+\Gm@bindingoffset=\dimen135
+\Gm@wd@mp=\dimen136
+\Gm@odd@mp=\dimen137
+\Gm@even@mp=\dimen138
+\Gm@layoutwidth=\dimen139
+\Gm@layoutheight=\dimen140
+\Gm@layouthoffset=\dimen141
+\Gm@layoutvoffset=\dimen142
+\Gm@dimlist=\toks16
+)
+(/data/data/com.termux/files/home/texmf/tex/latex/tmeslatex/amssymb.sty
+Package: amssymb 2002/01/22 v2.2d
+
+(/data/data/com.termux/files/home/texmf/tex/latex/tmeslatex/amsfonts.sty
+Package: amsfonts 2001/10/25 v2.2f
+\@emptytoks=\toks17
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 123.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
+))
+(/data/data/com.termux/files/home/texmf/tex/latex/tmeslatex/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/amsmath/ams
+text.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/amsmath/ams
+gen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen143
+))
+(/data/data/com.termux/files/home/texmf/tex/latex/tmeslatex/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen144
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/amsmath/ams
+opn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count174
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count175
+\leftroot@=\count176
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count177
+\DOTSCASE@=\count178
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen145
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+
+
+Package amsmath Warning: Unable to redefine math accent \hat.
+
+
+Package amsmath Warning: Unable to redefine math accent \check.
+
+
+Package amsmath Warning: Unable to redefine math accent \tilde.
+
+
+Package amsmath Warning: Unable to redefine math accent \acute.
+
+
+Package amsmath Warning: Unable to redefine math accent \grave.
+
+
+Package amsmath Warning: Unable to redefine math accent \dot.
+
+
+Package amsmath Warning: Unable to redefine math accent \ddot.
+
+
+Package amsmath Warning: Unable to redefine math accent \breve.
+
+
+Package amsmath Warning: Unable to redefine math accent \bar.
+
+
+Package amsmath Warning: Unable to redefine math accent \vec.
+
+
+Package amsmath Warning: Unable to redefine math accent \mathring.
+
+\macc@depth=\count179
+\c@MaxMatrixCols=\count180
+\dotsspace@=\muskip16
+\c@parentequation=\count181
+\dspbrk@lvl=\count182
+\tag@help=\toks19
+\row@=\count183
+\column@=\count184
+\maxfields@=\count185
+\andhelp@=\toks20
+\eqnshift@=\dimen146
+\alignsep@=\dimen147
+\tagshift@=\dimen148
+\tagwidth@=\dimen149
+\totwidth@=\dimen150
+\lineht@=\dimen151
+\@envbody=\toks21
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fontspec/fo
+ntspec.sty
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/l3packages/
+xparse/xparse.sty
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/l3kernel/ex
+pl3.sty
+Package: expl3 2020-03-06 L3 programming layer (loader) 
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/l3backend/l
+3backend-xdvipdfmx.def
+File: l3backend-xdvipdfmx.def 2020-03-12 L3 backend support: xdvipdfmx
+\g__graphics_track_int=\count186
+\l__pdf_internal_box=\box47
+\g__pdf_backend_object_int=\count187
+\g__pdf_backend_annotation_int=\count188
+))
+Package: xparse 2020-03-06 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count189
+\g__xparse_grabber_int=\count190
+\l__xparse_m_args_int=\count191
+\l__xparse_v_nesting_int=\count192
+)
+Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fontspec/fo
+ntspec-xetex.sty
+Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count193
+\l__fontspec_language_int=\count194
+\l__fontspec_strnum_int=\count195
+\l__fontspec_tmp_int=\count196
+\l__fontspec_tmpa_int=\count197
+\l__fontspec_tmpb_int=\count198
+\l__fontspec_tmpc_int=\count199
+\l__fontspec_em_int=\count266
+\l__fontspec_emdef_int=\count267
+\l__fontspec_strong_int=\count268
+\l__fontspec_strongdef_int=\count269
+\l__fontspec_tmpa_dim=\dimen152
+\l__fontspec_tmpb_dim=\dimen153
+\l__fontspec_tmpc_dim=\dimen154
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/base/fonten
+c.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fontspec/fo
+ntspec.cfg)))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/polyglossia
+/polyglossia.sty
+Package: polyglossia 2020/03/25 v1.48 Modern multilingual typesetting with XeLa
+TeX and LuaLaTeX
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/etoolbox/et
+oolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count270
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/makecmds/ma
+kecmds.sty
+Package: makecmds 2009/09/03 v1.0a extra command making commands
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xke
+yval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/xkeyval/x
+keyval.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/xkeyval/x
+kvutils.tex
+\XKV@toks=\toks23
+\XKV@tempa@toks=\toks24
+)
+\XKV@depth=\count271
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/iftex/ifl
+uatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/iftex/ifx
+etex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/l3packages/
+l3keys2e/l3keys2e.sty
+Package: l3keys2e 2020-03-06 LaTeX2e option processing using LaTeX3 keys
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/filehook/fi
+lehook.sty
+Package: filehook 2020/02/03 v0.7 Hooks for input files
+)
+\xpg@normalclass=\XeTeXcharclass1
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/polyglossia
+/gloss-latex.ldf
+File: gloss-latex.ldf polyglossia: module for default language
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}.
+)
+Package polyglossia Info: Default language is latex.
+)
+
+Package fontspec Info: Font family 'akshar(0)' created for font 'akshar' with
+(fontspec)             options [Path = ./Fonts/,Extension = .ttf].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./Fonts/akshar.ttf]/OT:language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'dhurjati(0)' created for font 'dhurjati'
+(fontspec)             with options [Path = ./Fonts/,Extension = .ttf].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./Fonts/dhurjati.ttf]/OT:language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'gautami(0)' created for font 'gautami'
+(fontspec)             with options [Path = ./Fonts/,Extension = .ttf].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./Fonts/gautami.ttf]/OT:language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'Gidugu(0)' created for font 'Gidugu' with
+(fontspec)             options [Path = ./Fonts/,Extension = .ttf].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./Fonts/Gidugu.ttf]/OT:script=DFLT;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'Gurajada(0)' created for font 'Gurajada'
+(fontspec)             with options [Path = ./Fonts/,Extension = .ttf].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./Fonts/Gurajada.ttf]/OT:script=DFLT;language=dflt;
+"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'LakkiReddy(0)' created for font
+(fontspec)             'LakkiReddy' with options [Path = ./Fonts/,Extension =
+(fontspec)             .ttf].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./Fonts/LakkiReddy.ttf]/OT:script=DFLT;language=dfl
+t;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'Lohittelugu(0)' created for font
+(fontspec)             'Lohittelugu' with options [Path = ./Fonts/,Extension =
+(fontspec)             .ttf].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./Fonts/Lohittelugu.ttf]/OT:script=DFLT;language=df
+lt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'Mallanna(0)' created for font 'Mallanna'
+(fontspec)             with options [Path = ./Fonts/,Extension =
+(fontspec)             .ttf,UprightFont = *-Regular].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./Fonts/Mallanna-Regular.ttf]/OT:language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'Mandali(0)' created for font 'Mandali'
+(fontspec)             with options [Path = ./Fonts/,Extension =
+(fontspec)             .ttf,UprightFont = *-Regular].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./Fonts/Mandali-Regular.ttf]/OT:language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'NATS(0)' created for font 'NATS' with
+(fontspec)             options [Path = ./Fonts/,Extension = .ttf].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./Fonts/NATS.ttf]/OT:script=DFLT;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'NTR(0)' created for font 'NTR' with
+(fontspec)             options [Path = ./Fonts/,Extension = .ttf].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./Fonts/NTR.ttf]/OT:script=DFLT;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'Peddana(0)' created for font 'Peddana'
+(fontspec)             with options [Path = ./Fonts/,Extension =
+(fontspec)             .ttf,UprightFont = *-Regular].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./Fonts/Peddana-Regular.ttf]/OT:script=DFLT;languag
+e=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'Ponnala(0)' created for font 'Ponnala'
+(fontspec)             with options [Path = ./Fonts/,Extension = .ttf].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./Fonts/Ponnala.ttf]/OT:script=DFLT;language=dflt;"
+
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'Pothana2000(0)' created for font
+(fontspec)             'Pothana2000' with options [Path = ./Fonts/,Extension =
+(fontspec)             .ttf].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./Fonts/Pothana2000.ttf]/OT:script=DFLT;language=df
+lt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'Pottisreeramulu(0)' created for font
+(fontspec)             'Pottisreeramulu' with options [Path =
+(fontspec)             ./Fonts/,Extension = .otf].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./Fonts/Pottisreeramulu.otf]/OT:language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'ramabhadra(0)' created for font
+(fontspec)             'ramabhadra' with options [Path = ./Fonts/,Extension =
+(fontspec)             .ttf].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./Fonts/ramabhadra.ttf]/OT:language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'Ramaraja(0)' created for font 'Ramaraja'
+(fontspec)             with options [Path = ./Fonts/,Extension =
+(fontspec)             .ttf,UprightFont = *-Regular].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./Fonts/Ramaraja-Regular.ttf]/OT:script=DFLT;langua
+ge=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'RaviPrakash(0)' created for font
+(fontspec)             'RaviPrakash' with options [Path = ./Fonts/,Extension =
+(fontspec)             .ttf].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./Fonts/RaviPrakash.ttf]/OT:script=DFLT;language=df
+lt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'Sreekrushnadevaraya(0)' created for font
+(fontspec)             'Sreekrushnadevaraya' with options [Path =
+(fontspec)             ./Fonts/,Extension = .ttf].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./Fonts/Sreekrushnadevaraya.ttf]/OT:language=dflt;"
+
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'suranna(0)' created for font 'suranna'
+(fontspec)             with options [Path = ./Fonts/,Extension = .ttf].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./Fonts/suranna.ttf]/OT:language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'Suravaram(0)' created for font 'Suravaram'
+(fontspec)             with options [Path = ./Fonts/,Extension = .ttf].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./Fonts/Suravaram.ttf]/OT:script=DFLT;language=dflt
+;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'Syamalaramana(0)' created for font
+(fontspec)             'Syamalaramana' with options [Path = ./Fonts/,Extension
+(fontspec)             = .otf].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./Fonts/Syamalaramana.otf]/OT:language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'TenaliRamakrishna(0)' created for font
+(fontspec)             'TenaliRamakrishna' with options [Path =
+(fontspec)             ./Fonts/,Extension = .ttf,UprightFont = *-Regular].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./Fonts/TenaliRamakrishna-Regular.ttf]/OT:script=DF
+LT;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'Timmana(0)' created for font 'Timmana'
+(fontspec)             with options [Path = ./Fonts/,Extension =
+(fontspec)             .ttf,UprightFont = *-Regular].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./Fonts/Timmana-Regular.ttf]/OT:script=DFLT;languag
+e=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'vemana2000(0)' created for font
+(fontspec)             'vemana2000' with options [Path = ./Fonts/,Extension =
+(fontspec)             .ttf].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./Fonts/vemana2000.ttf]/OT:script=DFLT;language=dfl
+t;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'NotoSansTelugu(0)' created for font
+(fontspec)             'NotoSansTelugu' with options [Path =
+(fontspec)             ./Fonts/Noto/,Extension = .ttf,UprightFont =
+(fontspec)             *-Regular,BoldFont = *-Bold].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./Fonts/Noto/NotoSansTelugu-Regular.ttf]/OT:languag
+e=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[./Fonts/Noto/NotoSansTelugu-Bold.ttf]/OT:language=d
+flt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'NotoSansTeluguUI(0)' created for font
+(fontspec)             'NotoSansTeluguUI' with options [Path =
+(fontspec)             ./Fonts/Noto/,Extension = .ttf,UprightFont =
+(fontspec)             *-Regular,BoldFont = *-Bold].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./Fonts/Noto/NotoSansTeluguUI-Regular.ttf]/OT:langu
+age=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[./Fonts/Noto/NotoSansTeluguUI-Bold.ttf]/OT:language
+=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'NotoSerifTelugu(0)' created for font
+(fontspec)             'NotoSerifTelugu' with options [Path =
+(fontspec)             ./Fonts/Noto/,Extension = .ttf,UprightFont =
+(fontspec)             *-Regular,BoldFont = *-Bold].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./Fonts/Noto/NotoSerifTelugu-Regular.ttf]/OT:script
+=DFLT;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[./Fonts/Noto/NotoSerifTelugu-Bold.ttf]/OT:script=DF
+LT;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'Lohittelugu.ttf(0)' created for font
+(fontspec)             'Lohittelugu.ttf' with options [Ligatures=TeX,Path =
+(fontspec)             ./Fonts/].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./Fonts/Lohittelugu.ttf]/OT:script=DFLT;language=df
+lt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+ (./main.aux
+LaTeX Info: Redefining \rmfamily on input line 2.
+LaTeX Info: Redefining \sffamily on input line 2.
+LaTeX Info: Redefining \ttfamily on input line 2.
+)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 299.
+LaTeX Font Info:    ... okay on input line 299.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 299.
+LaTeX Font Info:    ... okay on input line 299.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 299.
+LaTeX Font Info:    ... okay on input line 299.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 299.
+LaTeX Font Info:    ... okay on input line 299.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 299.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
+99.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr
+.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 299.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 299.
+LaTeX Font Info:    ... okay on input line 299.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 299.
+LaTeX Font Info:    ... okay on input line 299.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 299.
+LaTeX Font Info:    ... okay on input line 299.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 299.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 299.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 299.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 299.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 299.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 299.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 299.
+LaTeX Font Info:    Redeclaring math accent \check on input line 299.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 299.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 299.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 299.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 299.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 299.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 299.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 299.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 299.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 299.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 299.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 299.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 299.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 299.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 299.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 299.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 299.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 299.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/Lohittelugu.ttf(0)/m/n on input line
+ 299.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 299.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/Lohittelugu.ttf(0)/m/n on input lin
+e 299.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/Lohittelugu.ttf(0)/m/n --> TU/Lohittelugu.ttf(0)/m/n
+ on input line 299.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/Lohittelugu.ttf(0)/m/it on input li
+ne 299.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/Lohittelugu.ttf(0)/b/n on input lin
+e 299.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 299.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 299.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/Lohittelugu.ttf(0)/m/n --> TU/Lohittelugu.ttf(0)/b/n
+ on input line 299.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/Lohittelugu.ttf(0)/b/it on input l
+ine 299.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 299.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 299.
+LaTeX Info: Redefining \rmfamily on input line 299.
+LaTeX Info: Redefining \sffamily on input line 299.
+LaTeX Info: Redefining \ttfamily on input line 299.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 301
+.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/amsfonts/um
+sa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 301
+.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/amsfonts/um
+sb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (./intro.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--5
+
+ []
+
+[1
+
+])
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}.
+ [2] (./main.aux
+LaTeX Info: Redefining \rmfamily on input line 2.
+LaTeX Info: Redefining \sffamily on input line 2.
+LaTeX Info: Redefining \ttfamily on input line 2.
+) ) 
+Here is how much of TeX's memory you used:
+ 6282 strings out of 479418
+ 156855 string characters out of 5874903
+ 459056 words of memory out of 5000000
+ 23598 multiletter control sequences out of 15000+600000
+ 542144 words of font info for 186 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 44i,6n,70p,795b,240s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on main.pdf (2 pages).
