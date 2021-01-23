@@ -1,0 +1,12 @@
+#Copy code from 
+https://github.com/gadepall/school/blob/master/training/teqip/quad1.py
+
+#and paste in the box in
+https://sagecell.sagemath.org/
+
+#and press evaluate
+
+#The above code plots Fig. 1.1.3 in the following manual
+ 
+https://github.com/gadepall/school/blob/master/ncert/linman/gvv_linalg_manual.pdf
+

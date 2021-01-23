@@ -1,0 +1,31 @@
+\footnotesize
+\frametitle{Solution}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+From the figure, lets assume $\vec{C}$ to be the origin.
+\newline
+\begin{figure}[H]
+\input{./figs/triangleABC.tex}
+\caption{$\triangle ACB$}
+\end{figure}
+$\vec{C}=0,
+\norm{\vec{CA}}=b
+\norm{\vec{CB}}=a$
+\newline
+$\vec{M}$ is the position vector of mid-point of $\vec{BA}$.
+\newline
+$\vec{CM} = \vec{CB}+\vec{BM}$ [$\vec{BM}=(1/2)*\vec{BA}$]
+\newline
+$$\vec{CM} =\begin{pmatrix}a\\0\end{pmatrix}+\begin{pmatrix}-a\\b/2\end{pmatrix}$$
+\end{column}
+\begin{column}{0.5\textwidth}
+Therefore, $$\vec{CM}=\begin{pmatrix}a/2\\b/2\end{pmatrix}$$
+\begin{figure}[H]
+\input{./figs/triangleDBC.tex}
+\caption{$\triangle DBC$}
+\end{figure}
+From the figure, $\vec{CD}=2(\vec{CM})$
+\newline
+$$\vec{CD}=\begin{pmatrix}a\\b\end{pmatrix}$$
+\end{column}
+\end{columns}

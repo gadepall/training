@@ -1,0 +1,81 @@
+------------------------------------------------------------
+#Python Beginner
+------------------------------------------------------------
+#Youtube video link
+https://youtu.be/qB1M-SVCxZU
+
+#Copy code from 
+https://github.com/gadepall/school/blob/master/training/teqip/begin/sagecell/quad1.py
+
+#and paste in the box in
+https://sagecell.sagemath.org/
+
+#and press evaluate
+
+#The above code plots Fig. 1.1.3 in the following manual
+ 
+https://github.com/gadepall/school/blob/master/ncert/linman/gvv_linalg_manual.pdf
+
+
+------------------------------------------------------------
+#Latex Beginner
+------------------------------------------------------------
+
+#Youtube video link
+https://youtu.be/eNR7Y8K2Va8
+
+#with the following steps
+#Create an account and login to overleaf
+https://overleaf.com
+
+#Create a new blank project titled teqip.  It will automatically create a main.tex file.
+
+#Copy from 
+
+https://github.com/gadepall/school/tree/master/training/teqip/begin/overleaf/main.tex
+
+#and paste into the main.tex source file in the teqip folder in overleaf
+
+# Download 
+https://github.com/gadepall/school/blob/master/training/teqip/begin/overleaf/quad1.pdf
+
+#to your device and then upload to the teqip folder in overleaf
+#Recompile main.tex in overleaf and you should see the pdf file.
+
+------------------------------------------------------------
+#Colab Beginner
+------------------------------------------------------------
+
+#Youtube link
+https://youtu.be/HWWF6sSrso8
+
+#Open a new file in
+
+colab.research.google.com
+
+#and copy from 
+https://github.com/gadepall/school/blob/master/training/teqip/begin/colab/codes/quad1.py
+
+#to the new file.  Rename the new file in colab as quad1.ipynb and execute (you need to click a play icon on the top left side of the user interface)
+
+------------------------------------------------------------
+#Colab C programming 
+------------------------------------------------------------
+
+
+https://youtu.be/jOaBcZavHd4
+
+
+------------------------------------------------------------
+#Creating Directories in Google Drive
+------------------------------------------------------------
+
+#Go to colab and mount google drive.  Open an empty notebook and execute
+
+cd /content/drive/My Drive/teqip/2020/TE1722/solutions
+
+#Then in the next line, execute
+
+!mkdir {1..30}
+
+#This will create 30 folders in the directory called solutions
