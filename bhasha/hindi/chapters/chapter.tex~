@@ -168,7 +168,7 @@ $\because $
 \begin{align}
 \brak{\vec{S}-\vec{P}}^{\top}\brak{\vec{S}-\vec{R}} = \myvec{2 & -2}\myvec{2\\2} = 0
 \end{align}
-उपरोक्त समीकरण में $^{\top}$ अदिश गुणनफल का 
+उपरोक्त समीकरण में $^{\top}$ अदिश गुणनफल का चिन्ह है.
 \eqref{eq:constr_vectors_quad1_PSQR} का  \eqref{eq:constr_vectors_quad1_RSQP} में प्रतिस्थापन पर
 \begin{align}
 \cos \theta = 0 \implies PS \perp RS
