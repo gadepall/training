@@ -1,0 +1,13 @@
+
+\begin{thenomenclature} 
+\nomgroup{A}
+  \item [{Angle}]\begingroup कोण\nomeqref {0.0.0}\nompageref{1}
+  \item [{Matrix}]\begingroup आव्यूह\nomeqref {0.0.0}\nompageref{1}
+  \item [{Parallelogram}]\begingroup समांतर चतुर्भुज\nomeqref {0.0.0}\nompageref{1}
+  \item [{Point}]\begingroup बिंदु\nomeqref {0.0.0}\nompageref{1}
+  \item [{Quadrilateral}]\begingroup चतुर्भुज\nomeqref {0.0.0}\nompageref{1}
+  \item [{Rectangle}]\begingroup समचतुर्भुज\nomeqref {0.0.0}\nompageref{1}
+  \item [{Square}]\begingroup वर्ग\nomeqref {0.0.0}\nompageref{1}
+  \item [{Vector}]\begingroup सदिश\nomeqref {0.0.0}\nompageref{1}
+
+\end{thenomenclature}
