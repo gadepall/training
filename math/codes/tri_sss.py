@@ -82,7 +82,7 @@ plt.axis('equal')
 
 #if using termux
 #plt.savefig('tri_sss.pdf')
-plt.savefig('/home/user/txhome/storage/shared/gitlab/res2021/july/conics/figs/tri_sss.png')
+plt.savefig('/data/data/com.termux/files/home/storage/shared/github/training/math/codes/tri_sss.png')
 #subprocess.run(shlex.split("termux-open ./figs/tri_sss.pdf"))
 #else
 # image = mpimg.imread('tri_sss.png')
