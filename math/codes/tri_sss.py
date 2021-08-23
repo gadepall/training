@@ -1,19 +1,29 @@
-#Code by GVV Sharma
-#December 7, 2019
-#released under GNU GPL
-#Drawing a triangle given 3 sides
+# #Code by GVV Sharma
+# #December 7, 2019
+# #released under GNU GPL
+# #Drawing a triangle given 3 sides
 
+# import matplotlib.pyplot as plt
+# import matplotlib.image as mpimg
+# image = mpimg.imread('exit-ramp.jpg')
+# plt.imshow(image)
+# plt.show()
+
+import sys                                          #for path to external scripts
+#sys.path.insert(0, '/home/user/txhome/storage/shared/gitlab/res2021/july/conics/codes/CoordGeo')        #path to my scripts
+sys.path.insert(0, '/home/user/txhome/storage/shared/github/training/math/codes/CoordGeo')        #path to my scripts
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib.image as mpimg
 
 #local imports
 from line.funcs import *
+
 from triangle.funcs import *
 from conics.funcs import circ_gen
 
-import sys                                          #for path to external scripts
-sys.path.insert(0, '/storage/emulated/0/github/training/codes/CoordGeo')        #path to my scripts
 
+#sys.path.insert(0, '/home/user/txhome/storage/shared/gitlab/res2021/july/conics/codes/CoordGeo')        #path to my scripts
 
 #if using termux
 import subprocess
@@ -71,10 +81,12 @@ plt.grid() # minor
 plt.axis('equal')
 
 #if using termux
-plt.savefig('./figs/tri_sss.pdf')
-plt.savefig('./figs/tri_sss.png')
-subprocess.run(shlex.split("termux-open ./figs/tri_sss.pdf"))
+#plt.savefig('tri_sss.pdf')
+plt.savefig('/home/user/txhome/storage/shared/gitlab/res2021/july/conics/figs/tri_sss.png')
+#subprocess.run(shlex.split("termux-open ./figs/tri_sss.pdf"))
 #else
+# image = mpimg.imread('tri_sss.png')
+# plt.imshow(image)
 #plt.show()
 
 

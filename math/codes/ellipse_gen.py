@@ -48,8 +48,10 @@ plt.grid() # minor
 plt.axis('equal')
 
 #if using termux
-plt.savefig('./figs/ellipse.pdf')
-plt.savefig('./figs/ellipse.png')
-subprocess.run(shlex.split("termux-open ./figs/ellipse.pdf"))
+#plt.savefig('./figs/ellipse.pdf')
+plt.savefig('/home/user/txhome/storage/shared/github/training/math/figs/ellipse.png')
+
+#plt.savefig('./figs/ellipse.png')
+#subprocess.run(shlex.split("termux-open ./figs/ellipse.pdf"))
 #else
 #plt.show()
