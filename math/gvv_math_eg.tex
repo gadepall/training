@@ -1,56 +1,73 @@
+
+\let\negmedspace\undefined
+\let\negthickspace\undefined
 \documentclass[journal,12pt,twocolumn]{IEEEtran}
-%
-\usepackage{setspace}
+%\documentclass[conference]{IEEEtran}
+%\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
 \usepackage{gensymb}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} % loads  TikZ and tkz-base
+\usepackage{listings}
+%
+%\usepackage{setspace}
+%\usepackage{gensymb}
 %\doublespacing
-\singlespacing
+%\singlespacing
 
 %\usepackage{graphicx}
 %\usepackage{amssymb}
 %\usepackage{relsize}
-\usepackage[cmex10]{amsmath}
+%\usepackage[cmex10]{amsmath}
 %\usepackage{amsthm}
 %\interdisplaylinepenalty=2500
 %\savesymbol{iint}
 %\usepackage{txfonts}
 %\restoresymbol{TXF}{iint}
 %\usepackage{wasysym}
-\usepackage{amsthm}
+%\usepackage{amsthm}
 %\usepackage{iithtlc}
-\usepackage{mathrsfs}
-\usepackage{txfonts}
-\usepackage{stfloats}
-\usepackage{bm}
-\usepackage{cite}
-\usepackage{cases}
-\usepackage{subfig}
+%\usepackage{mathrsfs}
+%\usepackage{txfonts}
+%\usepackage{stfloats}
+%\usepackage{bm}
+%\usepackage{cite}
+%\usepackage{cases}
+%\usepackage{subfig}
 %\usepackage{xtab}
-\usepackage{longtable}
-\usepackage{multirow}
+%\usepackage{longtable}
+%\usepackage{multirow}
 %\usepackage{algorithm}
 %\usepackage{algpseudocode}
-\usepackage{enumitem}
-\usepackage{mathtools}
-\usepackage{tikz}
-\usepackage{circuitikz}
-\usepackage{verbatim}
+%\usepackage{enumitem}
+%\usepackage{mathtools}
+%\usepackage{tikz}
+%\usepackage{circuitikz}
+%\usepackage{verbatim}
 %\usepackage{tfrupee}
-\usepackage[breaklinks=true]{hyperref}
 %\usepackage{stmaryrd}
-\usepackage{tkz-euclide} % loads  TikZ and tkz-base
 %\usetkzobj{all}
-\usepackage{listings}
-    \usepackage{color}                                            %%
-    \usepackage{array}                                            %%
-    \usepackage{longtable}                                        %%
-    \usepackage{calc}                                             %%
-    \usepackage{multirow}                                         %%
-    \usepackage{hhline}                                           %%
-    \usepackage{ifthen}                                           %%
+%    \usepackage{color}                                            %%
+%    \usepackage{array}                                            %%
+%    \usepackage{longtable}                                        %%
+%    \usepackage{calc}                                             %%
+%    \usepackage{multirow}                                         %%
+%    \usepackage{hhline}                                           %%
+%    \usepackage{ifthen}                                           %%
   %optionally (for landscape tables embedded in another document): %%
-    \usepackage{lscape}     
-\usepackage{multicol}
-\usepackage{chngcntr}
+%    \usepackage{lscape}     
+%\usepackage{multicol}
+%\usepackage{chngcntr}
 %\usepackage{enumerate}
 
 %\usepackage{wasysym}
@@ -138,25 +155,25 @@ columns=fullflexible
 %\numberwithin{equation}{subsection}
 %\numberwithin{problem}{section}
 %\numberwithin{definition}{section}
-\makeatletter
-\@addtoreset{figure}{problem}
-\makeatother
+%\makeatletter
+%\@addtoreset{figure}{problem}
+%\makeatother
 
-\let\StandardTheFigure\thefigure
+%\let\StandardTheFigure\thefigure
 \let\vec\mathbf
 %\renewcommand{\thefigure}{\theproblem.\arabic{figure}}
-\renewcommand{\thefigure}{\theproblem}
+%\renewcommand{\thefigure}{\theproblem}
 %\setlist[enumerate,1]{before=\renewcommand\theequation{\theenumi.\arabic{equation}}
 %\counterwithin{equation}{enumi}
 
 
 %\renewcommand{\theequation}{\arabic{subsection}.\arabic{equation}}
 
-\def\putbox#1#2#3{\makebox[0in][l]{\makebox[#1][l]{}\raisebox{\baselineskip}[0in][0in]{\raisebox{#2}[0in][0in]{#3}}}}
-     \def\rightbox#1{\makebox[0in][r]{#1}}
-     \def\centbox#1{\makebox[0in]{#1}}
-     \def\topbox#1{\raisebox{-\baselineskip}[0in][0in]{#1}}
-     \def\midbox#1{\raisebox{-0.5\baselineskip}[0in][0in]{#1}}
+%\def\putbox#1#2#3{\makebox[0in][l]{\makebox[#1][l]{}\raisebox{\baselineskip}[0in][0in]{\raisebox{#2}[0in][0in]{#3}}}}
+%     \def\rightbox#1{\makebox[0in][r]{#1}}
+%     \def\centbox#1{\makebox[0in]{#1}}
+%     \def\topbox#1{\raisebox{-\baselineskip}[0in][0in]{#1}}
+%     \def\midbox#1{\raisebox{-0.5\baselineskip}[0in][0in]{#1}}
 
 \vspace{3cm}
 
