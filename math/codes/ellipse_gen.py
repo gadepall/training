@@ -22,16 +22,16 @@ b = 1
 x = ellipse_gen(a,b)
 
 #Vertices
-A1 = np.array([a,0])
+A1 = np.array([a,0]).reshape(-1,1)
 A2 = -A1
-B1 = np.array([0,b])
+B1 = np.array([0,b]).reshape(-1,1)
 B2 = -B1
 
 #Plotting the ellipse
 plt.plot(x[0,:],x[1,:],label='Standard Ellipse')
 
 #Labeling the coordinates
-ellipse_coords = np.vstack((A1,A2,B1,B2)).T
+ellipse_coords = np.block([[A1,A2,B1,B2]])
 plt.scatter(ellipse_coords[0,:], ellipse_coords[1,:])
 vert_labels = ['$A_1$','$A_2$','$B_1$', '$B_2$']
 for i, txt in enumerate(vert_labels):

@@ -12,7 +12,8 @@ def dir_vec(A,B):
   return B-A
 
 def norm_vec(A,B):
-  return np.matmul(omat, dir_vec(A,B))
+  return omat@dir_vec(A,B)
+  #return np.matmul(omat, dir_vec(A,B))
 
 #Generate line points
 def line_gen(A,B):

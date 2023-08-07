@@ -11,7 +11,7 @@
 
 import sys                                          #for path to external scripts
 #sys.path.insert(0, '/home/user/txhome/storage/shared/gitlab/res2021/july/conics/codes/CoordGeo')        #path to my scripts
-sys.path.insert(0, '/home/user/txhome/storage/shared/github/training/math/codes/CoordGeo')        #path to my scripts
+sys.path.insert(0, '/home/gadepall/github/training/math/codes/CoordGeo')        #path to my scripts
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
@@ -64,7 +64,14 @@ plt.plot(x_circ[0,:],x_circ[1,:],label='$circumcircle$')
 plt.plot(x_icirc[0,:],x_icirc[1,:],label='$incircle$')
 
 #Labeling the coordinates
-tri_coords = np.vstack((A,B,C,O,I)).T
+#tri_coords = np.vstack((A,B,C,O,I)).T
+#np.block([[A1,A2,B1,B2]])
+A = A.reshape(-1,1)
+B = B.reshape(-1,1)
+C = C.reshape(-1,1)
+O = O.reshape(-1,1)
+I = I.reshape(-1,1)
+tri_coords = np.block([[A,B,C,O,I]])
 plt.scatter(tri_coords[0,:], tri_coords[1,:])
 vert_labels = ['A','B','C','O','I']
 for i, txt in enumerate(vert_labels):
@@ -82,13 +89,12 @@ plt.axis('equal')
 
 #if using termux
 #plt.savefig('tri_sss.pdf')
-plt.savefig('/data/data/com.termux/files/home/storage/shared/github/training/math/codes/tri_sss.png')
+plt.savefig('/home/gadepall/github/training/math/codes/tri_sss.png')
 #subprocess.run(shlex.split("termux-open ./figs/tri_sss.pdf"))
 #else
 # image = mpimg.imread('tri_sss.png')
 # plt.imshow(image)
-#plt.show()
-
+plt.show()
 
 
 
