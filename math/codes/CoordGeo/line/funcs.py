@@ -39,12 +39,12 @@ def line_dir_pt(m,A,k1,k2):
 
 #Intersection of two lines
 def line_intersect(n1,A1,n2,A2):
-  N=np.vstack((n1,n2))
+  N=np.block([[n1],[n2]])
   p = np.zeros(2)
   p[0] = n1@A1
   p[1] = n2@A2
   #Intersection
-  P=np.linalg.inv(N)@p
+  P=np.linalg.solve(N,p)
   return P
 
 #Intersection of two lines
@@ -55,6 +55,6 @@ def perp_foot(n,cn,P):
   p[0] = cn
   p[1] = m@P
   #Intersection
-  x_0=np.linalg.inv(N)@p
+  x_0=np.linalg.solve(N,p)
   return x_0
 

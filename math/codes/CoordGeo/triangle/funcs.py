@@ -42,8 +42,8 @@ def ccircle(A,B,C):
   n2 = dir_vec(C,B)
   p[1] = 0.5*(np.linalg.norm(B)**2-np.linalg.norm(C)**2)
   #Intersection
-  N=np.vstack((n1,n2))
-  O=np.linalg.inv(N)@p
+  N=np.block([[n1],[n2]])
+  O=np.linalg.solve(N,p)
   r = np.linalg.norm(A -O)
   return O,r
 
@@ -61,8 +61,8 @@ def icircle(A,B,C):
   n3 = t/np.linalg.norm(t)
   p[0] = n1@B- k1*n2@C
   p[1] = n2@C- k2*n3@A
-  N=np.vstack((n1-k1*n2,n2-k2*n3))
-  I=np.matmul(np.linalg.inv(N),p)
-  r = n1@(I-B)
   #Intersection
+  N=np.block([[n1 - k1 * n2],[ n2 - k2 * n3]])
+  I=np.linalg.solve(N,p)
+  r = n1@(I-B)
   return I,r
